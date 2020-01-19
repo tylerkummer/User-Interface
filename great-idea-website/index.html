@@ -7,6 +7,7 @@
   <title>Great Idea!</title>
 
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -14,50 +15,137 @@
   <![endif]-->
 </head>
 
-  <body>
+  <body><!--in between the opening and closing body tag is everything the user sees on the website-->
 
-  Services
-  Product
-  Vision
-  Features
-  About
-  Contact
+  <nav class="navigation">
+    <a href="#service">Services</a>
+    <a href="#product">Product</a>
+    <a href="#vision">Vision</a>
+    <a href="#features">Features</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
 
-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
-  Innovation
-  On
-  Demand
+    <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">
+  </nav>
+  
+  <header>
+    <div class="title">
+      <h1>
+        Innovation<br>
+        On<br>
+        Demand<br>
+      </h1>
+    </div>
 
-  Get Started
+    <div class="circle">
+      <img src="img/header-img.png" alt="Image of a code snippet.">
+    </div>
 
-  <img src="img/header-img.png" alt="Image of a code snippet.">
+    <button type="submit">
+      Get Started
+    </button>
 
-  Features
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  </header>
 
+  <hr color="black" size="1" style="width:95%">
 
-  About
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  <section class="top-content">
+    <div class="feat">
+      <h2>
+        Features
+      </h2>
 
+      <p>
+        Aliquam elementum magna eros, ac posuere elvit tempus et.
+        Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu
+         ornare nisl. Nullam convallis augue justo, at imperdiet metus
+         scelerisque quis.
+      </p>
+    </div>
+    
+    <div class="about">
+      <h2>
+        About
+      </h2>
+
+      <p>
+        Aliquam elementum magna eros, ac posuere elvit tempus et.
+        Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu
+        ornare nisl. Nullam convallis augue justo, at imperdiet metus
+        scelerisque quis.
+      </p>
+    </div>
+  </section>
+  
   <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">
   
-  Services
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+  <section class="bottom-content">
+    <div class="service">
+      <h2>
+        Services
+      </h2>
+      
+      <p>
+        Aliquam elementum magna eros, ac
+        posuere elvit tempus et. Suspendisse vel
+        tempus odio, in interdutm nisi.
+        Suspendisse eu ornare nisl. Nullam
+        convallis augue justo, at imperdiet metus
+        scelerisque quis.
+      </p>
+    </div>
 
+    <div class="product">
+      <h2>
+        Product
+      </h2>
 
-  Product
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
+      <p>
+        Aliquam elementum magna eros, ac
+        posuere elvit tempus et. Suspendisse vel
+        tempus odio, in interdutm nisi.
+        Suspendisse eu ornare nisl. Nullam
+        convallis augue justo, at imperdiet metus
+        scelerisque quis.
+      </p>
+    </div>
+    
+    <div class="vision">
+      <h2>
+        Vision
+      </h2>
 
-  Vision
-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.
-
-  Contact
-  123 Way 456 Street
-  Somewhere, USA
-  1 (888) 888-8888
-  sales@greatidea.io
-
-  Copyright Great Idea! 2018
+      <p>
+        Aliquam elementum magna eros, ac
+        posuere elvit tempus et. Suspendisse vel
+        tempus odio, in interdutm nisi.
+        Suspendisse eu ornare nisl. Nullam
+        convallis augue justo, at imperdiet metus
+        scelerisque quis.
+      </p>
+    </div>
+  </section>
   
+  <hr color="black" size="1" style="width:95%">
+
+  <section class="contact">
+    <h2>
+      Contact
+    </h2>
+
+    <address>
+      123 Way 456 Street<br>
+      Somewhere, USA<br>
+      <br>
+      1 (888) 888-8888<br>
+      <br>
+      sales@greatidea.io<br>
+    </address>
+  </section>
+
+  <footer>
+    Copyright Great Idea! 2018
+  </footer>
+
   </body>
 </html>
